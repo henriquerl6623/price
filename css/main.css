@@ -16,5 +16,35 @@
 
 .superior p:last-child {
     line-height: 1.625rem;
-    color: var(grays);
+    color: var(--Grayish-Blue);
+    font-size: 0.875rem;
+}
+
+.esquerda {
+    background: var(--cyan);
+    padding-inline: 1.5rem;
+}
+
+.esquerda div p:first-child {
+    background: #ffff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.esquerda div p:last-child {
+    color: #ffff;
+    opacity: 0.5;
+}
+
+.esquerda div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.esquerda p{
+    
 }
