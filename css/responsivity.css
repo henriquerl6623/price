@@ -1,0 +1,43 @@
+@media(min-width:650px){
+    .inferior {
+        display: flex;
+        justify-content: center;
+    }
+
+    .esquerda, 
+    .direita{
+        width: 100%;
+        padding-inline: 2.5rem;
+
+    }
+    main{
+        max-width: 650px;
+        padding: none;
+    }
+    body {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .superior {
+        border-radius:8px 8px;
+        padding-inline: 2.5rem;
+    }
+    h1 {
+        size: 1.5rem;
+    }
+    .superior section p:nth-of-type(1){
+        size: 0.5rem;
+    }
+    .superior section p:nth-of-type(2){
+        font-size: 1rem;
+    }
+    .esquerda {
+        border-bottom-left-radius: 8px;
+    }
+    .direita {
+        border-radius: 0 0 0 8px;
+        
+    }
+}
